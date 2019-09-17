@@ -32,6 +32,7 @@ li{
     font-size: 26px;
     text-align: center;
     padding: 25 15 15;
+    transition: all .1s ease-in;
 }
 
 i{
@@ -123,13 +124,15 @@ p{
     border-top: none;
 }
 
-ul:hover{
+ul:hover li{
     opacity: 0.5;
 }
 
-div{
-    transition: all .1s ease-in;
+li:hover{
+    opacity: 1.0 !important;
+}
+
+div{ 
     background-color: white;
     margin: 0 10%;
 }
-
