@@ -1,0 +1,135 @@
+body{
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: white;
+    font-size: 24px;
+    background-color: #3399cc;
+    border: 20px solid #2b81ac;
+    margin: 0;
+}
+
+h1{
+    font-size: 1.15em;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.footer{
+    font-size: 0.8em;
+    opacity: 1;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;  
+    font-size: 0em;
+}
+
+li{
+    display: inline-block;
+    border: 5px solid white;
+    font-size: 26px;
+    text-align: center;
+    padding: 25 15 15;
+}
+
+i{
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+p{
+    opacity: 0.6;
+}
+
+.country-in-li1{
+    background-color: #3399cc;
+    box-sizing: border-box;
+    width: 50%;
+    border-right: none;
+    border-bottom: none;
+}
+
+.country-in-li2{
+    background-color: #3cc;
+    box-sizing: border-box;
+    width: 25%;
+    border-bottom: none;
+}
+
+.country-in-li3{
+    background-color: #969;
+    box-sizing: border-box;
+    width: 25%;
+    border-bottom: none;
+    border-left: none;
+}
+
+.country-in-li4{
+    box-sizing: border-box;
+    background-color: #c24747;
+    width: 25%;
+}
+
+.country-in-li5{
+    background-color: #e2674a;
+    box-sizing: border-box;
+    width: 25%;
+    border-left: none;
+}
+
+.country-in-li6{
+    background-color: #ffcc66;
+    box-sizing: border-box;
+    width: 25%;
+    border-left: none;
+}
+
+.country-in-li7{
+    background-color: #9c9;
+    box-sizing: border-box;
+    width: 25%;
+    border-left: none;
+}
+
+.country-in-li8{
+    background-color: #699;
+    box-sizing: border-box;
+    width: 25%;
+    border-top: none;
+}
+
+.country-in-li9{
+    background-color: #c69;
+    box-sizing: border-box;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+}
+
+.country-in-li10{
+    background-color: #396;
+    box-sizing: border-box;
+    width: 25%;
+    border-top: none;
+    border-left: none;
+}
+
+.country-in-li11{
+    background-color: #669;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: none;
+}
+
+ul:hover{
+    opacity: 0.5;
+}
+
+div{
+    transition: all .1s ease-in;
+    background-color: white;
+    margin: 0 10%;
+}
+
